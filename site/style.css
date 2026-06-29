@@ -1,0 +1,60 @@
+/* 1. Configuração padrão para limpar margens do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    padding: 20px;
+    background: #000000;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(31, 48, 74, 1) 50%, rgba(0, 0, 0, 1) 100%, rgba(237, 221, 83, 1) 100%);; /* Gradiente */
+}
+
+/* 2. Estilizando seu Cabeçalho */
+.cabecalho {
+    background-color: #222; /* Fundo escuro */
+    color: white;
+    padding: 20px;
+    text-align: left;
+}
+
+.cabecalho 
+
+.nome h1, .nome2 h1 {
+    font-family: DM Mono;
+    font-size: 2rem; 
+    margin-right: 10px;
+}
+
+/* 3. Estilizando suas seções de Redes */
+.rede {
+    background-color: white;
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    
+    /* Ativar o Flexbox coloca a div do texto e a div da foto lado a lado */
+    display: flex; 
+    justify-content: space-between; /* Empurra o texto para a esquerda e o ícone para a direita */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+/* 4. Estilizando suas seções de Projetos */
+.projetos {
+    background-color: white;
+    margin: 15px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Garante que as imagens dos seus projetos não fiquem gigantes na tela */
+.projetos img {
+    max-width: 150px;
+    height: auto;
+}
