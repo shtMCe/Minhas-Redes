@@ -7,12 +7,12 @@
 }
 
 body {
-    padding: 20px;
+    /* Gradiente */
     background: #000000;
-    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(31, 48, 74, 1) 50%, rgba(0, 0, 0, 1) 100%, rgba(237, 221, 83, 1) 100%);; /* Gradiente */
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(31, 48, 74, 1) 50%, rgba(0, 0, 0, 1) 100%, rgba(237, 221, 83, 1) 100%);; 
 }
 
-/* 2. Estilizando seu Cabeçalho */
+/* Estilizando Cabeçalho */
 .cabecalho {
     background-color: #222; /* Fundo escuro */
     color: white;
@@ -20,12 +20,30 @@ body {
     text-align: left;
 }
 
-.cabecalho 
+.portifolio {
+    font-family: dm sans;
+    margin-bottom: 16px;
+}
 
-.nome h1, .nome2 h1 {
-    font-family: DM Mono;
+/* Estilizando nome completo */
+.nomecompleto {
+    font-weight: lighter;
+    font-size: 2rem;
+    font-family: instrument serif;
+    margin-bottom: 3rem;
+} 
+
+
+/* Estilizando primeiro nome */
+.nome {
     font-size: 2rem; 
-    margin-right: 10px;
+}
+
+/* Estilizando segundo nome */
+.nome2 {
+    font-style: italic;
+    font-size: 2rem; 
+    color: #3c4ffd
 }
 
 /* 3. Estilizando suas seções de Redes */
