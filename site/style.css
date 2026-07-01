@@ -87,6 +87,11 @@ body {
     margin-right: 10px; /* Espaço entre o texto e o ícone */
 }
 
+a {
+    color: rgb(255, 255, 255); 
+    text-decoration: none; /*  tira aquele risco sublinhado */
+}
+
 /* 4. Estilizando suas seções de Projetos */
 .projetos {
     color:#ffffff;
