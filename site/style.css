@@ -14,25 +14,32 @@ body {
 
 /* Estilizando Cabeçalho */
 .cabecalho {
-    background-color: #222; /* Fundo escuro */
+    background-color: #22222200; /* Fundo escuro */
     color: white;
     padding: 20px;
     text-align: left;
+    border-bottom: 1px solid #44444436; /* Linha de separação */
+    margin: 3rem 5rem 2rem 15%;
 }
 
 .portifolio {
     font-family: dm sans;
     margin-bottom: 16px;
+    font-weight: lighter;
 }
 
 /* Estilizando nome completo */
 .nomecompleto {
-    font-weight: lighter;
     font-size: 2rem;
-    font-family: instrument serif;
     margin-bottom: 3rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 } 
 
+.descricao {
+    font-family: dm sans;
+    margin-bottom: 3rem;
+    font-weight: lighter;
+}
 
 /* Estilizando primeiro nome */
 .nome {
@@ -42,7 +49,7 @@ body {
 /* Estilizando segundo nome */
 .nome2 {
     font-style: italic;
-    font-size: 2rem; 
+    font-size: 1.5rem; 
     color: #3c4ffd
 }
 
