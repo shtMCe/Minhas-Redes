@@ -66,7 +66,7 @@ body {
     margin-bottom: 1rem;
     box-align: center;
     margin-left: 2rem;
-    margin-right: 8rem;
+    margin-right: 4rem;
     padding: 15px;
     border: 1px solid #dddddd00;
     
@@ -76,12 +76,27 @@ body {
     align-items: center; /* Centraliza verticalmente */
 }
 
+.nome-rede {
+    text-align: left; /* Alinha o texto à esquerda */
+    font-family: dm sans;
+    font-weight: 200;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column; /* Coloca o texto em uma coluna */
+    align-items: flex-start; /* Alinha o texto à esquerda */
+    margin-right: 10px; /* Espaço entre o texto e o ícone */
+}
+
 /* 4. Estilizando suas seções de Projetos */
 .projetos {
-    background-color: white;
-    margin: 15px 0;
+    color:#ffffff;
+    background-color: rgba(255, 255, 255, 0.027);
+    margin-bottom: 1rem;
+    box-align: center;
+    margin-left: 2rem;
+    margin-right: 8rem;
     padding: 15px;
-    border: 1px solid #ddd;
+    border: 1px solid #d
 
     display: flex;
     justify-content: space-between;
@@ -90,6 +105,6 @@ body {
 
 /* Garante que as imagens dos seus projetos não fiquem gigantes na tela */
 .projetos img {
-    max-width: 150px;
+    max-width: 5px;
     height: auto;
 }
